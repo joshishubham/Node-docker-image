@@ -6,4 +6,4 @@ Installation
         git clone https://github.com/joshishubham/Node-docker-image.git
 
 3. Start docker container
-        docker-compose up
+       # docker-compose up
