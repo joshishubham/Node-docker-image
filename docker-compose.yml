@@ -1,8 +1,10 @@
 version: "2"
 services: 
-    localhost:
-        image: "mongo"
     node:
-        build: .
+        build: 
+            context: .
+            dockerfile: ./Dockerfile
+        volumes: 
+            - .:/usr/webApp
         ports:
             - "3000:3000"
